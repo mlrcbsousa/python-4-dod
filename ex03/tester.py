@@ -5,10 +5,10 @@ def main():
     """Main function to test the Student class."""
 
     try:
-        student = Student(name = "Edward", surname = "agle")
+        student = Student(name="Edward", surname="agle")
         print(student)
 
-        student = Student(name = "Edward", surname = "agle", id = "toto")
+        student = Student(name="Edward", surname="agle", id="toto")
         print(student)
 
     except Exception as e:
